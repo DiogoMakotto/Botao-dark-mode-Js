@@ -1,5 +1,6 @@
 function changeMode() {
     changeClasses();
+    changeText();
 }
 
 function changeClasses() {
@@ -9,14 +10,17 @@ function changeClasses() {
 }
 
 function changeText() {
-	const lightMode = 'Light Mode';
-	const darkMode = 'Dark Mode';
+	const lightMode = 'Modo claro';
+	const darkMode = 'Modo escuro';
     
     if (body.classList.contains(darkModeClass)) {
 		button.innerHTML = lightMode;
-		h1.innerHTML = darkMode + ' ON';
+		h1.innerHTML = darkMode + ' Ativo';
 		return;
     }
+
+    button.innerHTML = darkMode;
+	h1.innerHTML = lightMode + ' Ativo';
 }
 
 const darkModeClass = 'dark-mode';
