@@ -10,4 +10,9 @@ Manipulando DOM para criar interface no modo escuro (dark-mode).
   <img align="center" alt="Makotto-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/css3/css3-plain.svg"> 
   </div>
   
-  
+## Preview 
+
+<div align="center">
+    
+![Darkmode](./assets/DarkMode.gif)
+</div>
